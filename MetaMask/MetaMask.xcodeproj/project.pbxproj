@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D94006270AA94900DE63E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D94005270AA94900DE63E8 /* AppDelegate.swift */; };
+		F8D94008270AA94900DE63E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D94007270AA94900DE63E8 /* SceneDelegate.swift */; };
+		F8D9400B270AA94900DE63E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D94009270AA94900DE63E8 /* LaunchScreen.storyboard */; };
+		F8D9400E270AA94900DE63E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D9400C270AA94900DE63E8 /* Main.storyboard */; };
+		F8D94017270AA94900DE63E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D94016270AA94900DE63E8 /* AppDelegate.swift */; };
+		F8D9401A270AA94900DE63E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D94018270AA94900DE63E8 /* Main.storyboard */; };
+		F8D94022270AA94900DE63E8 /* MetaMask Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8D94021270AA94900DE63E8 /* MetaMask Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8D9402C270AA94900DE63E8 /* MetaMask Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8D9402B270AA94900DE63E8 /* MetaMask Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8D94032270AA94900DE63E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF5270AA94800DE63E8 /* Main.html */; };
+		F8D94033270AA94900DE63E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF5270AA94800DE63E8 /* Main.html */; };
+		F8D94034270AA94900DE63E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF7270AA94800DE63E8 /* Icon.png */; };
+		F8D94035270AA94900DE63E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF7270AA94800DE63E8 /* Icon.png */; };
+		F8D94036270AA94900DE63E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF8270AA94800DE63E8 /* Style.css */; };
+		F8D94037270AA94900DE63E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF8270AA94800DE63E8 /* Style.css */; };
+		F8D94038270AA94900DE63E8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF9270AA94800DE63E8 /* Script.js */; };
+		F8D94039270AA94900DE63E8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FF9270AA94800DE63E8 /* Script.js */; };
+		F8D9403A270AA94900DE63E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D93FFA270AA94800DE63E8 /* ViewController.swift */; };
+		F8D9403B270AA94900DE63E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D93FFA270AA94800DE63E8 /* ViewController.swift */; };
+		F8D9403C270AA94900DE63E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FFB270AA94900DE63E8 /* Assets.xcassets */; };
+		F8D9403D270AA94900DE63E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D93FFB270AA94900DE63E8 /* Assets.xcassets */; };
+		F8D9403E270AA94900DE63E8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D93FFD270AA94900DE63E8 /* SafariWebExtensionHandler.swift */; };
+		F8D9403F270AA94900DE63E8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D93FFD270AA94900DE63E8 /* SafariWebExtensionHandler.swift */; };
+		F8D9407E270AA94900DE63E8 /* ui-2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94051270AA94900DE63E8 /* ui-2.js */; };
+		F8D9407F270AA94900DE63E8 /* common-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94052270AA94900DE63E8 /* common-0.js */; };
+		F8D94080270AA94900DE63E8 /* lockdown-install.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94053270AA94900DE63E8 /* lockdown-install.js */; };
+		F8D94081270AA94900DE63E8 /* common-1.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94054270AA94900DE63E8 /* common-1.js */; };
+		F8D94082270AA94900DE63E8 /* runtime-cjs.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94055270AA94900DE63E8 /* runtime-cjs.js */; };
+		F8D94083270AA94900DE63E8 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94056270AA94900DE63E8 /* home.html */; };
+		F8D94084270AA94900DE63E8 /* ui-3.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94057270AA94900DE63E8 /* ui-3.js */; };
+		F8D94085270AA94900DE63E8 /* sentry-install.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94058270AA94900DE63E8 /* sentry-install.js */; };
+		F8D94086270AA94900DE63E8 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = F8D94059270AA94900DE63E8 /* intl */; };
+		F8D94087270AA94900DE63E8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405A270AA94900DE63E8 /* images */; };
+		F8D94088270AA94900DE63E8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405B270AA94900DE63E8 /* popup.html */; };
+		F8D94089270AA94900DE63E8 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405C270AA94900DE63E8 /* notification.html */; };
+		F8D9408A270AA94900DE63E8 /* background-5.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405D270AA94900DE63E8 /* background-5.js */; };
+		F8D9408B270AA94900DE63E8 /* content-script-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405E270AA94900DE63E8 /* content-script-0.js */; };
+		F8D9408C270AA94900DE63E8 /* background-1.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405F270AA94900DE63E8 /* background-1.js */; };
+		F8D9408D270AA94900DE63E8 /* lockdown-run.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94060270AA94900DE63E8 /* lockdown-run.js */; };
+		F8D9408E270AA94900DE63E8 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94061270AA94900DE63E8 /* disable-console.js */; };
+		F8D9408F270AA94900DE63E8 /* background-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94062270AA94900DE63E8 /* background-0.js */; };
+		F8D94090270AA94900DE63E8 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = F8D94063270AA94900DE63E8 /* index.css */; };
+		F8D94091270AA94900DE63E8 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94064270AA94900DE63E8 /* phishing.html */; };
+		F8D94092270AA94900DE63E8 /* background-4.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94065270AA94900DE63E8 /* background-4.js */; };
+		F8D94093270AA94900DE63E8 /* background-3.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94066270AA94900DE63E8 /* background-3.js */; };
+		F8D94094270AA94900DE63E8 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94067270AA94900DE63E8 /* inpage.js */; };
+		F8D94095270AA94900DE63E8 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94068270AA94900DE63E8 /* phishing-detect.js */; };
+		F8D94096270AA94900DE63E8 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94069270AA94900DE63E8 /* chromereload.js */; };
+		F8D94097270AA94900DE63E8 /* background-7.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406A270AA94900DE63E8 /* background-7.js */; };
+		F8D94098270AA94900DE63E8 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406B270AA94900DE63E8 /* trezor-usb-permissions.html */; };
+		F8D94099270AA94900DE63E8 /* background-6.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406C270AA94900DE63E8 /* background-6.js */; };
+		F8D9409A270AA94900DE63E8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406D270AA94900DE63E8 /* manifest.json */; };
+		F8D9409B270AA94900DE63E8 /* background-2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406E270AA94900DE63E8 /* background-2.js */; };
+		F8D9409C270AA94900DE63E8 /* common-2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406F270AA94900DE63E8 /* common-2.js */; };
+		F8D9409D270AA94900DE63E8 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94070270AA94900DE63E8 /* loading.html */; };
+		F8D9409E270AA94900DE63E8 /* ui-4.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94071270AA94900DE63E8 /* ui-4.js */; };
+		F8D9409F270AA94900DE63E8 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94072270AA94900DE63E8 /* background.html */; };
+		F8D940A0270AA94900DE63E8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F8D94073270AA94900DE63E8 /* _locales */; };
+		F8D940A1270AA94900DE63E8 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94074270AA94900DE63E8 /* globalthis.js */; };
+		F8D940A2270AA94900DE63E8 /* ui-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94075270AA94900DE63E8 /* ui-0.js */; };
+		F8D940A3270AA94900DE63E8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = F8D94076270AA94900DE63E8 /* fonts */; };
+		F8D940A4270AA94900DE63E8 /* ui-1.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94077270AA94900DE63E8 /* ui-1.js */; };
+		F8D940A5270AA94900DE63E8 /* common-3.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94078270AA94900DE63E8 /* common-3.js */; };
+		F8D940A6270AA94900DE63E8 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94079270AA94900DE63E8 /* contentscript.js */; };
+		F8D940A7270AA94900DE63E8 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407A270AA94900DE63E8 /* index-rtl.css */; };
+		F8D940A8270AA94900DE63E8 /* ui-5.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407B270AA94900DE63E8 /* ui-5.js */; };
+		F8D940A9270AA94900DE63E8 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407C270AA94900DE63E8 /* vendor */; };
+		F8D940AA270AA94900DE63E8 /* background-8.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407D270AA94900DE63E8 /* background-8.js */; };
+		F8D940AB270AA94900DE63E8 /* ui-2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94051270AA94900DE63E8 /* ui-2.js */; };
+		F8D940AC270AA94900DE63E8 /* common-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94052270AA94900DE63E8 /* common-0.js */; };
+		F8D940AD270AA94900DE63E8 /* lockdown-install.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94053270AA94900DE63E8 /* lockdown-install.js */; };
+		F8D940AE270AA94900DE63E8 /* common-1.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94054270AA94900DE63E8 /* common-1.js */; };
+		F8D940AF270AA94900DE63E8 /* runtime-cjs.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94055270AA94900DE63E8 /* runtime-cjs.js */; };
+		F8D940B0270AA94900DE63E8 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94056270AA94900DE63E8 /* home.html */; };
+		F8D940B1270AA94900DE63E8 /* ui-3.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94057270AA94900DE63E8 /* ui-3.js */; };
+		F8D940B2270AA94900DE63E8 /* sentry-install.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94058270AA94900DE63E8 /* sentry-install.js */; };
+		F8D940B3270AA94900DE63E8 /* intl in Resources */ = {isa = PBXBuildFile; fileRef = F8D94059270AA94900DE63E8 /* intl */; };
+		F8D940B4270AA94900DE63E8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405A270AA94900DE63E8 /* images */; };
+		F8D940B5270AA94900DE63E8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405B270AA94900DE63E8 /* popup.html */; };
+		F8D940B6270AA94900DE63E8 /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405C270AA94900DE63E8 /* notification.html */; };
+		F8D940B7270AA94900DE63E8 /* background-5.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405D270AA94900DE63E8 /* background-5.js */; };
+		F8D940B8270AA94900DE63E8 /* content-script-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405E270AA94900DE63E8 /* content-script-0.js */; };
+		F8D940B9270AA94900DE63E8 /* background-1.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9405F270AA94900DE63E8 /* background-1.js */; };
+		F8D940BA270AA94900DE63E8 /* lockdown-run.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94060270AA94900DE63E8 /* lockdown-run.js */; };
+		F8D940BB270AA94900DE63E8 /* disable-console.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94061270AA94900DE63E8 /* disable-console.js */; };
+		F8D940BC270AA94900DE63E8 /* background-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94062270AA94900DE63E8 /* background-0.js */; };
+		F8D940BD270AA94900DE63E8 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = F8D94063270AA94900DE63E8 /* index.css */; };
+		F8D940BE270AA94900DE63E8 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94064270AA94900DE63E8 /* phishing.html */; };
+		F8D940BF270AA94900DE63E8 /* background-4.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94065270AA94900DE63E8 /* background-4.js */; };
+		F8D940C0270AA94900DE63E8 /* background-3.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94066270AA94900DE63E8 /* background-3.js */; };
+		F8D940C1270AA94900DE63E8 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94067270AA94900DE63E8 /* inpage.js */; };
+		F8D940C2270AA94900DE63E8 /* phishing-detect.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94068270AA94900DE63E8 /* phishing-detect.js */; };
+		F8D940C3270AA94900DE63E8 /* chromereload.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94069270AA94900DE63E8 /* chromereload.js */; };
+		F8D940C4270AA94900DE63E8 /* background-7.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406A270AA94900DE63E8 /* background-7.js */; };
+		F8D940C5270AA94900DE63E8 /* trezor-usb-permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406B270AA94900DE63E8 /* trezor-usb-permissions.html */; };
+		F8D940C6270AA94900DE63E8 /* background-6.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406C270AA94900DE63E8 /* background-6.js */; };
+		F8D940C7270AA94900DE63E8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406D270AA94900DE63E8 /* manifest.json */; };
+		F8D940C8270AA94900DE63E8 /* background-2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406E270AA94900DE63E8 /* background-2.js */; };
+		F8D940C9270AA94900DE63E8 /* common-2.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9406F270AA94900DE63E8 /* common-2.js */; };
+		F8D940CA270AA94900DE63E8 /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94070270AA94900DE63E8 /* loading.html */; };
+		F8D940CB270AA94900DE63E8 /* ui-4.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94071270AA94900DE63E8 /* ui-4.js */; };
+		F8D940CC270AA94900DE63E8 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F8D94072270AA94900DE63E8 /* background.html */; };
+		F8D940CD270AA94900DE63E8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F8D94073270AA94900DE63E8 /* _locales */; };
+		F8D940CE270AA94900DE63E8 /* globalthis.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94074270AA94900DE63E8 /* globalthis.js */; };
+		F8D940CF270AA94900DE63E8 /* ui-0.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94075270AA94900DE63E8 /* ui-0.js */; };
+		F8D940D0270AA94900DE63E8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = F8D94076270AA94900DE63E8 /* fonts */; };
+		F8D940D1270AA94900DE63E8 /* ui-1.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94077270AA94900DE63E8 /* ui-1.js */; };
+		F8D940D2270AA94900DE63E8 /* common-3.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94078270AA94900DE63E8 /* common-3.js */; };
+		F8D940D3270AA94900DE63E8 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D94079270AA94900DE63E8 /* contentscript.js */; };
+		F8D940D4270AA94900DE63E8 /* index-rtl.css in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407A270AA94900DE63E8 /* index-rtl.css */; };
+		F8D940D5270AA94900DE63E8 /* ui-5.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407B270AA94900DE63E8 /* ui-5.js */; };
+		F8D940D6270AA94900DE63E8 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407C270AA94900DE63E8 /* vendor */; };
+		F8D940D7270AA94900DE63E8 /* background-8.js in Resources */ = {isa = PBXBuildFile; fileRef = F8D9407D270AA94900DE63E8 /* background-8.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D94023270AA94900DE63E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D93FEF270AA94800DE63E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D94020270AA94900DE63E8;
+			remoteInfo = "MetaMask Extension (iOS)";
+		};
+		F8D9402D270AA94900DE63E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D93FEF270AA94800DE63E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D9402A270AA94900DE63E8;
+			remoteInfo = "MetaMask Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8D94045270AA94900DE63E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8D94022270AA94900DE63E8 /* MetaMask Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D9404C270AA94900DE63E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8D9402C270AA94900DE63E8 /* MetaMask Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8D93FF6270AA94800DE63E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F8D93FF7270AA94800DE63E8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F8D93FF8270AA94800DE63E8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F8D93FF9270AA94800DE63E8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F8D93FFA270AA94800DE63E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8D93FFB270AA94900DE63E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D93FFD270AA94900DE63E8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F8D94002270AA94900DE63E8 /* MetaMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D94005270AA94900DE63E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8D94007270AA94900DE63E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8D9400A270AA94900DE63E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D9400D270AA94900DE63E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D9400F270AA94900DE63E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D94014270AA94900DE63E8 /* MetaMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D94016270AA94900DE63E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8D94019270AA94900DE63E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D9401B270AA94900DE63E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D9401C270AA94900DE63E8 /* MetaMask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaMask.entitlements; sourceTree = "<group>"; };
+		F8D94021270AA94900DE63E8 /* MetaMask Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MetaMask Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D94026270AA94900DE63E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D9402B270AA94900DE63E8 /* MetaMask Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MetaMask Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D94030270AA94900DE63E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D94031270AA94900DE63E8 /* MetaMask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaMask.entitlements; sourceTree = "<group>"; };
+		F8D94051270AA94900DE63E8 /* ui-2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-2.js"; path = "../../../metamask-chrome-10/ui-2.js"; sourceTree = "<group>"; };
+		F8D94052270AA94900DE63E8 /* common-0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "common-0.js"; path = "../../../metamask-chrome-10/common-0.js"; sourceTree = "<group>"; };
+		F8D94053270AA94900DE63E8 /* lockdown-install.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "lockdown-install.js"; path = "../../../metamask-chrome-10/lockdown-install.js"; sourceTree = "<group>"; };
+		F8D94054270AA94900DE63E8 /* common-1.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "common-1.js"; path = "../../../metamask-chrome-10/common-1.js"; sourceTree = "<group>"; };
+		F8D94055270AA94900DE63E8 /* runtime-cjs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "runtime-cjs.js"; path = "../../../metamask-chrome-10/runtime-cjs.js"; sourceTree = "<group>"; };
+		F8D94056270AA94900DE63E8 /* home.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = home.html; path = "../../../metamask-chrome-10/home.html"; sourceTree = "<group>"; };
+		F8D94057270AA94900DE63E8 /* ui-3.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-3.js"; path = "../../../metamask-chrome-10/ui-3.js"; sourceTree = "<group>"; };
+		F8D94058270AA94900DE63E8 /* sentry-install.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "sentry-install.js"; path = "../../../metamask-chrome-10/sentry-install.js"; sourceTree = "<group>"; };
+		F8D94059270AA94900DE63E8 /* intl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = intl; path = "../../../metamask-chrome-10/intl"; sourceTree = "<group>"; };
+		F8D9405A270AA94900DE63E8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../../metamask-chrome-10/images"; sourceTree = "<group>"; };
+		F8D9405B270AA94900DE63E8 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../../metamask-chrome-10/popup.html"; sourceTree = "<group>"; };
+		F8D9405C270AA94900DE63E8 /* notification.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = notification.html; path = "../../../metamask-chrome-10/notification.html"; sourceTree = "<group>"; };
+		F8D9405D270AA94900DE63E8 /* background-5.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-5.js"; path = "../../../metamask-chrome-10/background-5.js"; sourceTree = "<group>"; };
+		F8D9405E270AA94900DE63E8 /* content-script-0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "content-script-0.js"; path = "../../../metamask-chrome-10/content-script-0.js"; sourceTree = "<group>"; };
+		F8D9405F270AA94900DE63E8 /* background-1.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-1.js"; path = "../../../metamask-chrome-10/background-1.js"; sourceTree = "<group>"; };
+		F8D94060270AA94900DE63E8 /* lockdown-run.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "lockdown-run.js"; path = "../../../metamask-chrome-10/lockdown-run.js"; sourceTree = "<group>"; };
+		F8D94061270AA94900DE63E8 /* disable-console.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "disable-console.js"; path = "../../../metamask-chrome-10/disable-console.js"; sourceTree = "<group>"; };
+		F8D94062270AA94900DE63E8 /* background-0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-0.js"; path = "../../../metamask-chrome-10/background-0.js"; sourceTree = "<group>"; };
+		F8D94063270AA94900DE63E8 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = index.css; path = "../../../metamask-chrome-10/index.css"; sourceTree = "<group>"; };
+		F8D94064270AA94900DE63E8 /* phishing.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = phishing.html; path = "../../../metamask-chrome-10/phishing.html"; sourceTree = "<group>"; };
+		F8D94065270AA94900DE63E8 /* background-4.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-4.js"; path = "../../../metamask-chrome-10/background-4.js"; sourceTree = "<group>"; };
+		F8D94066270AA94900DE63E8 /* background-3.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-3.js"; path = "../../../metamask-chrome-10/background-3.js"; sourceTree = "<group>"; };
+		F8D94067270AA94900DE63E8 /* inpage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inpage.js; path = "../../../metamask-chrome-10/inpage.js"; sourceTree = "<group>"; };
+		F8D94068270AA94900DE63E8 /* phishing-detect.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "phishing-detect.js"; path = "../../../metamask-chrome-10/phishing-detect.js"; sourceTree = "<group>"; };
+		F8D94069270AA94900DE63E8 /* chromereload.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = chromereload.js; path = "../../../metamask-chrome-10/chromereload.js"; sourceTree = "<group>"; };
+		F8D9406A270AA94900DE63E8 /* background-7.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-7.js"; path = "../../../metamask-chrome-10/background-7.js"; sourceTree = "<group>"; };
+		F8D9406B270AA94900DE63E8 /* trezor-usb-permissions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "trezor-usb-permissions.html"; path = "../../../metamask-chrome-10/trezor-usb-permissions.html"; sourceTree = "<group>"; };
+		F8D9406C270AA94900DE63E8 /* background-6.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-6.js"; path = "../../../metamask-chrome-10/background-6.js"; sourceTree = "<group>"; };
+		F8D9406D270AA94900DE63E8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../metamask-chrome-10/manifest.json"; sourceTree = "<group>"; };
+		F8D9406E270AA94900DE63E8 /* background-2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-2.js"; path = "../../../metamask-chrome-10/background-2.js"; sourceTree = "<group>"; };
+		F8D9406F270AA94900DE63E8 /* common-2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "common-2.js"; path = "../../../metamask-chrome-10/common-2.js"; sourceTree = "<group>"; };
+		F8D94070270AA94900DE63E8 /* loading.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = loading.html; path = "../../../metamask-chrome-10/loading.html"; sourceTree = "<group>"; };
+		F8D94071270AA94900DE63E8 /* ui-4.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-4.js"; path = "../../../metamask-chrome-10/ui-4.js"; sourceTree = "<group>"; };
+		F8D94072270AA94900DE63E8 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = "../../../metamask-chrome-10/background.html"; sourceTree = "<group>"; };
+		F8D94073270AA94900DE63E8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../../metamask-chrome-10/_locales"; sourceTree = "<group>"; };
+		F8D94074270AA94900DE63E8 /* globalthis.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = globalthis.js; path = "../../../metamask-chrome-10/globalthis.js"; sourceTree = "<group>"; };
+		F8D94075270AA94900DE63E8 /* ui-0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-0.js"; path = "../../../metamask-chrome-10/ui-0.js"; sourceTree = "<group>"; };
+		F8D94076270AA94900DE63E8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "../../../metamask-chrome-10/fonts"; sourceTree = "<group>"; };
+		F8D94077270AA94900DE63E8 /* ui-1.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-1.js"; path = "../../../metamask-chrome-10/ui-1.js"; sourceTree = "<group>"; };
+		F8D94078270AA94900DE63E8 /* common-3.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "common-3.js"; path = "../../../metamask-chrome-10/common-3.js"; sourceTree = "<group>"; };
+		F8D94079270AA94900DE63E8 /* contentscript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentscript.js; path = "../../../metamask-chrome-10/contentscript.js"; sourceTree = "<group>"; };
+		F8D9407A270AA94900DE63E8 /* index-rtl.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "index-rtl.css"; path = "../../../metamask-chrome-10/index-rtl.css"; sourceTree = "<group>"; };
+		F8D9407B270AA94900DE63E8 /* ui-5.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "ui-5.js"; path = "../../../metamask-chrome-10/ui-5.js"; sourceTree = "<group>"; };
+		F8D9407C270AA94900DE63E8 /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vendor; path = "../../../metamask-chrome-10/vendor"; sourceTree = "<group>"; };
+		F8D9407D270AA94900DE63E8 /* background-8.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "background-8.js"; path = "../../../metamask-chrome-10/background-8.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D93FFF270AA94900DE63E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D94011270AA94900DE63E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D9401E270AA94900DE63E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D94028270AA94900DE63E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D93FEE270AA94800DE63E8 = {
+			isa = PBXGroup;
+			children = (
+				F8D93FF3270AA94800DE63E8 /* Shared (App) */,
+				F8D93FFC270AA94900DE63E8 /* Shared (Extension) */,
+				F8D94004270AA94900DE63E8 /* iOS (App) */,
+				F8D94015270AA94900DE63E8 /* macOS (App) */,
+				F8D94025270AA94900DE63E8 /* iOS (Extension) */,
+				F8D9402F270AA94900DE63E8 /* macOS (Extension) */,
+				F8D94003270AA94900DE63E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D93FF3270AA94800DE63E8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F8D93FFA270AA94800DE63E8 /* ViewController.swift */,
+				F8D93FFB270AA94900DE63E8 /* Assets.xcassets */,
+				F8D93FF4270AA94800DE63E8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F8D93FF4270AA94800DE63E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8D93FF5270AA94800DE63E8 /* Main.html */,
+				F8D93FF7270AA94800DE63E8 /* Icon.png */,
+				F8D93FF8270AA94800DE63E8 /* Style.css */,
+				F8D93FF9270AA94800DE63E8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8D93FFC270AA94900DE63E8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94050270AA94900DE63E8 /* Resources */,
+				F8D93FFD270AA94900DE63E8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F8D94003270AA94900DE63E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94002270AA94900DE63E8 /* MetaMask.app */,
+				F8D94014270AA94900DE63E8 /* MetaMask.app */,
+				F8D94021270AA94900DE63E8 /* MetaMask Extension.appex */,
+				F8D9402B270AA94900DE63E8 /* MetaMask Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D94004270AA94900DE63E8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94005270AA94900DE63E8 /* AppDelegate.swift */,
+				F8D94007270AA94900DE63E8 /* SceneDelegate.swift */,
+				F8D94009270AA94900DE63E8 /* LaunchScreen.storyboard */,
+				F8D9400C270AA94900DE63E8 /* Main.storyboard */,
+				F8D9400F270AA94900DE63E8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F8D94015270AA94900DE63E8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94016270AA94900DE63E8 /* AppDelegate.swift */,
+				F8D94018270AA94900DE63E8 /* Main.storyboard */,
+				F8D9401B270AA94900DE63E8 /* Info.plist */,
+				F8D9401C270AA94900DE63E8 /* MetaMask.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F8D94025270AA94900DE63E8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94026270AA94900DE63E8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F8D9402F270AA94900DE63E8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94030270AA94900DE63E8 /* Info.plist */,
+				F8D94031270AA94900DE63E8 /* MetaMask.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F8D94050270AA94900DE63E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8D94051270AA94900DE63E8 /* ui-2.js */,
+				F8D94052270AA94900DE63E8 /* common-0.js */,
+				F8D94053270AA94900DE63E8 /* lockdown-install.js */,
+				F8D94054270AA94900DE63E8 /* common-1.js */,
+				F8D94055270AA94900DE63E8 /* runtime-cjs.js */,
+				F8D94056270AA94900DE63E8 /* home.html */,
+				F8D94057270AA94900DE63E8 /* ui-3.js */,
+				F8D94058270AA94900DE63E8 /* sentry-install.js */,
+				F8D94059270AA94900DE63E8 /* intl */,
+				F8D9405A270AA94900DE63E8 /* images */,
+				F8D9405B270AA94900DE63E8 /* popup.html */,
+				F8D9405C270AA94900DE63E8 /* notification.html */,
+				F8D9405D270AA94900DE63E8 /* background-5.js */,
+				F8D9405E270AA94900DE63E8 /* content-script-0.js */,
+				F8D9405F270AA94900DE63E8 /* background-1.js */,
+				F8D94060270AA94900DE63E8 /* lockdown-run.js */,
+				F8D94061270AA94900DE63E8 /* disable-console.js */,
+				F8D94062270AA94900DE63E8 /* background-0.js */,
+				F8D94063270AA94900DE63E8 /* index.css */,
+				F8D94064270AA94900DE63E8 /* phishing.html */,
+				F8D94065270AA94900DE63E8 /* background-4.js */,
+				F8D94066270AA94900DE63E8 /* background-3.js */,
+				F8D94067270AA94900DE63E8 /* inpage.js */,
+				F8D94068270AA94900DE63E8 /* phishing-detect.js */,
+				F8D94069270AA94900DE63E8 /* chromereload.js */,
+				F8D9406A270AA94900DE63E8 /* background-7.js */,
+				F8D9406B270AA94900DE63E8 /* trezor-usb-permissions.html */,
+				F8D9406C270AA94900DE63E8 /* background-6.js */,
+				F8D9406D270AA94900DE63E8 /* manifest.json */,
+				F8D9406E270AA94900DE63E8 /* background-2.js */,
+				F8D9406F270AA94900DE63E8 /* common-2.js */,
+				F8D94070270AA94900DE63E8 /* loading.html */,
+				F8D94071270AA94900DE63E8 /* ui-4.js */,
+				F8D94072270AA94900DE63E8 /* background.html */,
+				F8D94073270AA94900DE63E8 /* _locales */,
+				F8D94074270AA94900DE63E8 /* globalthis.js */,
+				F8D94075270AA94900DE63E8 /* ui-0.js */,
+				F8D94076270AA94900DE63E8 /* fonts */,
+				F8D94077270AA94900DE63E8 /* ui-1.js */,
+				F8D94078270AA94900DE63E8 /* common-3.js */,
+				F8D94079270AA94900DE63E8 /* contentscript.js */,
+				F8D9407A270AA94900DE63E8 /* index-rtl.css */,
+				F8D9407B270AA94900DE63E8 /* ui-5.js */,
+				F8D9407C270AA94900DE63E8 /* vendor */,
+				F8D9407D270AA94900DE63E8 /* background-8.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D94001270AA94900DE63E8 /* MetaMask (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D94046270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask (iOS)" */;
+			buildPhases = (
+				F8D93FFE270AA94900DE63E8 /* Sources */,
+				F8D93FFF270AA94900DE63E8 /* Frameworks */,
+				F8D94000270AA94900DE63E8 /* Resources */,
+				F8D94045270AA94900DE63E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D94024270AA94900DE63E8 /* PBXTargetDependency */,
+			);
+			name = "MetaMask (iOS)";
+			productName = "MetaMask (iOS)";
+			productReference = F8D94002270AA94900DE63E8 /* MetaMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D94013270AA94900DE63E8 /* MetaMask (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D9404D270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask (macOS)" */;
+			buildPhases = (
+				F8D94010270AA94900DE63E8 /* Sources */,
+				F8D94011270AA94900DE63E8 /* Frameworks */,
+				F8D94012270AA94900DE63E8 /* Resources */,
+				F8D9404C270AA94900DE63E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D9402E270AA94900DE63E8 /* PBXTargetDependency */,
+			);
+			name = "MetaMask (macOS)";
+			productName = "MetaMask (macOS)";
+			productReference = F8D94014270AA94900DE63E8 /* MetaMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D94020270AA94900DE63E8 /* MetaMask Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D94042270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask Extension (iOS)" */;
+			buildPhases = (
+				F8D9401D270AA94900DE63E8 /* Sources */,
+				F8D9401E270AA94900DE63E8 /* Frameworks */,
+				F8D9401F270AA94900DE63E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetaMask Extension (iOS)";
+			productName = "MetaMask Extension (iOS)";
+			productReference = F8D94021270AA94900DE63E8 /* MetaMask Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F8D9402A270AA94900DE63E8 /* MetaMask Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D94049270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask Extension (macOS)" */;
+			buildPhases = (
+				F8D94027270AA94900DE63E8 /* Sources */,
+				F8D94028270AA94900DE63E8 /* Frameworks */,
+				F8D94029270AA94900DE63E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetaMask Extension (macOS)";
+			productName = "MetaMask Extension (macOS)";
+			productReference = F8D9402B270AA94900DE63E8 /* MetaMask Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D93FEF270AA94800DE63E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F8D94001270AA94900DE63E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F8D94013270AA94900DE63E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F8D94020270AA94900DE63E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F8D9402A270AA94900DE63E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = F8D93FF2270AA94800DE63E8 /* Build configuration list for PBXProject "MetaMask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D93FEE270AA94800DE63E8;
+			productRefGroup = F8D94003270AA94900DE63E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D94001270AA94900DE63E8 /* MetaMask (iOS) */,
+				F8D94013270AA94900DE63E8 /* MetaMask (macOS) */,
+				F8D94020270AA94900DE63E8 /* MetaMask Extension (iOS) */,
+				F8D9402A270AA94900DE63E8 /* MetaMask Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D94000270AA94900DE63E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D94034270AA94900DE63E8 /* Icon.png in Resources */,
+				F8D9400B270AA94900DE63E8 /* LaunchScreen.storyboard in Resources */,
+				F8D94032270AA94900DE63E8 /* Main.html in Resources */,
+				F8D94038270AA94900DE63E8 /* Script.js in Resources */,
+				F8D9403C270AA94900DE63E8 /* Assets.xcassets in Resources */,
+				F8D9400E270AA94900DE63E8 /* Main.storyboard in Resources */,
+				F8D94036270AA94900DE63E8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D94012270AA94900DE63E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D94035270AA94900DE63E8 /* Icon.png in Resources */,
+				F8D94037270AA94900DE63E8 /* Style.css in Resources */,
+				F8D9401A270AA94900DE63E8 /* Main.storyboard in Resources */,
+				F8D94039270AA94900DE63E8 /* Script.js in Resources */,
+				F8D9403D270AA94900DE63E8 /* Assets.xcassets in Resources */,
+				F8D94033270AA94900DE63E8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D9401F270AA94900DE63E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D940D5270AA94900DE63E8 /* ui-5.js in Resources */,
+				F8D940B4270AA94900DE63E8 /* images in Resources */,
+				F8D940BC270AA94900DE63E8 /* background-0.js in Resources */,
+				F8D940B7270AA94900DE63E8 /* background-5.js in Resources */,
+				F8D940D0270AA94900DE63E8 /* fonts in Resources */,
+				F8D940AF270AA94900DE63E8 /* runtime-cjs.js in Resources */,
+				F8D940B1270AA94900DE63E8 /* ui-3.js in Resources */,
+				F8D940C2270AA94900DE63E8 /* phishing-detect.js in Resources */,
+				F8D940D4270AA94900DE63E8 /* index-rtl.css in Resources */,
+				F8D940BB270AA94900DE63E8 /* disable-console.js in Resources */,
+				F8D940B8270AA94900DE63E8 /* content-script-0.js in Resources */,
+				F8D940BF270AA94900DE63E8 /* background-4.js in Resources */,
+				F8D940B0270AA94900DE63E8 /* home.html in Resources */,
+				F8D940C7270AA94900DE63E8 /* manifest.json in Resources */,
+				F8D940AC270AA94900DE63E8 /* common-0.js in Resources */,
+				F8D940B5270AA94900DE63E8 /* popup.html in Resources */,
+				F8D940CA270AA94900DE63E8 /* loading.html in Resources */,
+				F8D940AE270AA94900DE63E8 /* common-1.js in Resources */,
+				F8D940C0270AA94900DE63E8 /* background-3.js in Resources */,
+				F8D940C5270AA94900DE63E8 /* trezor-usb-permissions.html in Resources */,
+				F8D940B6270AA94900DE63E8 /* notification.html in Resources */,
+				F8D940B2270AA94900DE63E8 /* sentry-install.js in Resources */,
+				F8D940C6270AA94900DE63E8 /* background-6.js in Resources */,
+				F8D940D1270AA94900DE63E8 /* ui-1.js in Resources */,
+				F8D940C3270AA94900DE63E8 /* chromereload.js in Resources */,
+				F8D940D2270AA94900DE63E8 /* common-3.js in Resources */,
+				F8D940BD270AA94900DE63E8 /* index.css in Resources */,
+				F8D940C1270AA94900DE63E8 /* inpage.js in Resources */,
+				F8D940BE270AA94900DE63E8 /* phishing.html in Resources */,
+				F8D940D3270AA94900DE63E8 /* contentscript.js in Resources */,
+				F8D940C9270AA94900DE63E8 /* common-2.js in Resources */,
+				F8D940CE270AA94900DE63E8 /* globalthis.js in Resources */,
+				F8D940B3270AA94900DE63E8 /* intl in Resources */,
+				F8D940CC270AA94900DE63E8 /* background.html in Resources */,
+				F8D940AD270AA94900DE63E8 /* lockdown-install.js in Resources */,
+				F8D940C8270AA94900DE63E8 /* background-2.js in Resources */,
+				F8D940D6270AA94900DE63E8 /* vendor in Resources */,
+				F8D940D7270AA94900DE63E8 /* background-8.js in Resources */,
+				F8D940CF270AA94900DE63E8 /* ui-0.js in Resources */,
+				F8D940C4270AA94900DE63E8 /* background-7.js in Resources */,
+				F8D940BA270AA94900DE63E8 /* lockdown-run.js in Resources */,
+				F8D940CB270AA94900DE63E8 /* ui-4.js in Resources */,
+				F8D940B9270AA94900DE63E8 /* background-1.js in Resources */,
+				F8D940CD270AA94900DE63E8 /* _locales in Resources */,
+				F8D940AB270AA94900DE63E8 /* ui-2.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D94029270AA94900DE63E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D940A8270AA94900DE63E8 /* ui-5.js in Resources */,
+				F8D94087270AA94900DE63E8 /* images in Resources */,
+				F8D9408F270AA94900DE63E8 /* background-0.js in Resources */,
+				F8D9408A270AA94900DE63E8 /* background-5.js in Resources */,
+				F8D940A3270AA94900DE63E8 /* fonts in Resources */,
+				F8D94082270AA94900DE63E8 /* runtime-cjs.js in Resources */,
+				F8D94084270AA94900DE63E8 /* ui-3.js in Resources */,
+				F8D94095270AA94900DE63E8 /* phishing-detect.js in Resources */,
+				F8D940A7270AA94900DE63E8 /* index-rtl.css in Resources */,
+				F8D9408E270AA94900DE63E8 /* disable-console.js in Resources */,
+				F8D9408B270AA94900DE63E8 /* content-script-0.js in Resources */,
+				F8D94092270AA94900DE63E8 /* background-4.js in Resources */,
+				F8D94083270AA94900DE63E8 /* home.html in Resources */,
+				F8D9409A270AA94900DE63E8 /* manifest.json in Resources */,
+				F8D9407F270AA94900DE63E8 /* common-0.js in Resources */,
+				F8D94088270AA94900DE63E8 /* popup.html in Resources */,
+				F8D9409D270AA94900DE63E8 /* loading.html in Resources */,
+				F8D94081270AA94900DE63E8 /* common-1.js in Resources */,
+				F8D94093270AA94900DE63E8 /* background-3.js in Resources */,
+				F8D94098270AA94900DE63E8 /* trezor-usb-permissions.html in Resources */,
+				F8D94089270AA94900DE63E8 /* notification.html in Resources */,
+				F8D94085270AA94900DE63E8 /* sentry-install.js in Resources */,
+				F8D94099270AA94900DE63E8 /* background-6.js in Resources */,
+				F8D940A4270AA94900DE63E8 /* ui-1.js in Resources */,
+				F8D94096270AA94900DE63E8 /* chromereload.js in Resources */,
+				F8D940A5270AA94900DE63E8 /* common-3.js in Resources */,
+				F8D94090270AA94900DE63E8 /* index.css in Resources */,
+				F8D94094270AA94900DE63E8 /* inpage.js in Resources */,
+				F8D94091270AA94900DE63E8 /* phishing.html in Resources */,
+				F8D940A6270AA94900DE63E8 /* contentscript.js in Resources */,
+				F8D9409C270AA94900DE63E8 /* common-2.js in Resources */,
+				F8D940A1270AA94900DE63E8 /* globalthis.js in Resources */,
+				F8D94086270AA94900DE63E8 /* intl in Resources */,
+				F8D9409F270AA94900DE63E8 /* background.html in Resources */,
+				F8D94080270AA94900DE63E8 /* lockdown-install.js in Resources */,
+				F8D9409B270AA94900DE63E8 /* background-2.js in Resources */,
+				F8D940A9270AA94900DE63E8 /* vendor in Resources */,
+				F8D940AA270AA94900DE63E8 /* background-8.js in Resources */,
+				F8D940A2270AA94900DE63E8 /* ui-0.js in Resources */,
+				F8D94097270AA94900DE63E8 /* background-7.js in Resources */,
+				F8D9408D270AA94900DE63E8 /* lockdown-run.js in Resources */,
+				F8D9409E270AA94900DE63E8 /* ui-4.js in Resources */,
+				F8D9408C270AA94900DE63E8 /* background-1.js in Resources */,
+				F8D940A0270AA94900DE63E8 /* _locales in Resources */,
+				F8D9407E270AA94900DE63E8 /* ui-2.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D93FFE270AA94900DE63E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9403A270AA94900DE63E8 /* ViewController.swift in Sources */,
+				F8D94006270AA94900DE63E8 /* AppDelegate.swift in Sources */,
+				F8D94008270AA94900DE63E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D94010270AA94900DE63E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9403B270AA94900DE63E8 /* ViewController.swift in Sources */,
+				F8D94017270AA94900DE63E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D9401D270AA94900DE63E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9403E270AA94900DE63E8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D94027270AA94900DE63E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9403F270AA94900DE63E8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D94024270AA94900DE63E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D94020270AA94900DE63E8 /* MetaMask Extension (iOS) */;
+			targetProxy = F8D94023270AA94900DE63E8 /* PBXContainerItemProxy */;
+		};
+		F8D9402E270AA94900DE63E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D9402A270AA94900DE63E8 /* MetaMask Extension (macOS) */;
+			targetProxy = F8D9402D270AA94900DE63E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D93FF5270AA94800DE63E8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D93FF6270AA94800DE63E8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F8D94009270AA94900DE63E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D9400A270AA94900DE63E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D9400C270AA94900DE63E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D9400D270AA94900DE63E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D94018270AA94900DE63E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D94019270AA94900DE63E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D94040270AA94900DE63E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8D94041270AA94900DE63E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F8D94043270AA94900DE63E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MetaMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask.Extension;
+				PRODUCT_NAME = "MetaMask Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D94044270AA94900DE63E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MetaMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask.Extension;
+				PRODUCT_NAME = "MetaMask Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D94047270AA94900DE63E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MetaMask;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask;
+				PRODUCT_NAME = MetaMask;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D94048270AA94900DE63E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MetaMask;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask;
+				PRODUCT_NAME = MetaMask;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D9404A270AA94900DE63E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MetaMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask.Extension;
+				PRODUCT_NAME = "MetaMask Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F8D9404B270AA94900DE63E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MetaMask Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask.Extension;
+				PRODUCT_NAME = "MetaMask Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F8D9404E270AA94900DE63E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MetaMask;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask;
+				PRODUCT_NAME = MetaMask;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F8D9404F270AA94900DE63E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MetaMask.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MetaMask;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.MetaMask;
+				PRODUCT_NAME = MetaMask;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D93FF2270AA94800DE63E8 /* Build configuration list for PBXProject "MetaMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D94040270AA94900DE63E8 /* Debug */,
+				F8D94041270AA94900DE63E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D94042270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D94043270AA94900DE63E8 /* Debug */,
+				F8D94044270AA94900DE63E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D94046270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D94047270AA94900DE63E8 /* Debug */,
+				F8D94048270AA94900DE63E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D94049270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D9404A270AA94900DE63E8 /* Debug */,
+				F8D9404B270AA94900DE63E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D9404D270AA94900DE63E8 /* Build configuration list for PBXNativeTarget "MetaMask (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D9404E270AA94900DE63E8 /* Debug */,
+				F8D9404F270AA94900DE63E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D93FEF270AA94800DE63E8 /* Project object */;
+}
